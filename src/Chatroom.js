@@ -15,31 +15,31 @@ class Chatroom extends React.Component {
                 //img: "http://i.imgur.com/Tj5DGiO.jpg",
             }, {
                 username: "Alice Chen",
-                content: <p>Love it! :heart:</p>,
+                content: <p>👋</p>,
                 //img: "http://i.imgur.com/Tj5DGiO.jpg",
             }, {
                 username: "Kevin Hsu",
-                content: <p>Check out my Github at https://github.com/WigoHunter</p>,
+                content: <p>Check original source code at: https://github.com/WigoHunter</p>,
                 img: "http://i.imgur.com/Tj5DGiO.jpg",
             }, {
                 username: "KevHs",
-                content: <p>Lorem ipsum dolor sit amet, nibh ipsum. Cum class sem inceptos incidunt sed sed. Tempus wisi enim id, arcu sed lectus aliquam, nulla vitae est bibendum molestie elit risus.</p>,
+                content: <p>This was created following this tutorial: https://medium.freecodecamp.org/lets-build-a-react-chatroom-component-ed353982d826.</p>,
                 //img: "http://i.imgur.com/ARbQZix.jpg",
             }, {
                 username: "Kevin Hsu",
-                content: <p>So</p>,
+                content: <p>Lorem ipsum</p>,
                 //img: "http://i.imgur.com/Tj5DGiO.jpg",
             }, {
                 username: "Kevin Hsu",
-                content: <p>Chilltime is going to be an app for you to view videos with friends</p>,
+                content: <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>,
                 //img: "http://i.imgur.com/Tj5DGiO.jpg",
             }, {
                 username: "Kevin Hsu",
-                content: <p>You can sign-up now to try out our private beta!</p>,
+                content: <p>YUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>,
                 //img: "http://i.imgur.com/Tj5DGiO.jpg",
             }, {
                 username: "Alice Chen",
-                content: <p>Definitely! Sounds great!</p>,
+                content: <p>Quis autem vel!</p>,
                 //img: "http://i.imgur.com/Tj5DGiO.jpg",
             }]
         };
@@ -79,7 +79,7 @@ class Chatroom extends React.Component {
 
         return (
             <div className="chatroom">
-                <h3>Chilltime</h3>
+                <h3>React Chat</h3>
                 <ul className="chats" ref="chats">
                     {
                         chats.map((chat) => 
